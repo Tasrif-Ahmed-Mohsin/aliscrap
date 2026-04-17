@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1688 Product Scraper Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #ff6a00;
+            margin-bottom: 30px;
+        }
+        .input-group {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus {
+            border-color: #ff6a00;
+            outline: none;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            background-color: #ff6a00;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e65c00;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        #loader {
+            display: none;
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #ff6a00;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        #error {
+            color: #d9534f;
+            background-color: #fdf7f7;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #d9534f;
+            display: none;
+            margin-bottom: 20px;
+        }
+        .product-card {
+            border-top: 2px solid #f0f0f0;
+            padding-top: 25px;
+            margin-top: 25px;
+        }
+        .product-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .product-price {
+            font-size: 24px;
+            color: #ff6a00;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            height: 160px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .variations h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>1688 Scraper Dashboard</h1>
+        
+        <div class="input-group">
+            <input type="text" id="urlInput" placeholder="Paste 1688 product URL here..." value="https://detail.1688.com/offer/1002546674170.html">
+            <button id="searchBtn" onclick="fetchProduct()">Extract Data</button>
+        </div>
+
+        <div id="loader">
+            <div class="spinner"></div>
+            Opening headless browser and bypassing checks... (Usually takes 5-10 seconds)
+        </div>
+
+        <div id="error"></div>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        async function fetchProduct() {
+            const urlInput = document.getElementById('urlInput').value.trim();
+            const searchBtn = document.getElementById('searchBtn');
+            const loader = document.getElementById('loader');
+            const resultDiv = document.getElementById('result');
+            const errorDiv = document.getElementById('error');
+
+            if (!urlInput) {
+                showError("Please enter a valid URL.");
+                return;
+            }
+
+            // Reset UI
+            errorDiv.style.display = 'none';
+            resultDiv.innerHTML = '';
+            loader.style.display = 'block';
+            searchBtn.disabled = true;
+
+            try {
+                const response = await fetch('/api/product', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ url: urlInput })
+                });
+                
+                const res = await response.json();
+                
+                if (res.success && res.data) {
+                    renderProduct(res.data);
+                } else {
+                    showError(res.error || "Failed to extract product data.");
+                }
+            } catch (error) {
+                showError("Network connection error: " + error.message);
+            } finally {
+                loader.style.display = 'none';
+                searchBtn.disabled = false;
+            }
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.innerText = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function renderProduct(data) {
+            const resultDiv = document.getElementById('result');
+            
+            // Build Images
+            const imagesHtml = data.images && data.images.length > 0 
+                ? data.images.map(img => `<img src="${img}" alt="thumbnail">`).join('')
+                : '<p>No images found.</p>';
+
+            // Build Variations Table
+            let variationsHtml = '<p>No specific variations detected.</p>';
+            if (data.variations && data.variations.length > 0) {
+                const rows = data.variations.map(v => `
+                    <tr>
+                        <td>
+                            ${v.image ? `<img src="${v.image}" style="width:50px; height:50px; object-fit:cover; border-radius:5px; vertical-align:middle; margin-right:10px;">` : ''}
+                            ${v.attributes || 'Standard'}
+                        </td>
+                        <td>¥${v.price || 'N/A'}</td>
+                        <td>${v.stock !== undefined ? v.stock : 'N/A'}</td>
+                        <td>${v.id || 'N/A'}</td>
+                    </tr>
+                `).join('');
+
+                variationsHtml = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Attributes</th>
+                                <th>Price</th>
+                                <th>Stock</th>
+                                <th>SKU ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                `;
+            }
+
+            const html = `
+                <div class="product-card">
+                    <div class="product-title"><a href="${data.url}" target="_blank" style="color:inherit; text-decoration:none;">${data.title || 'Unknown Title'}</a></div>
+                    <div class="product-price">${data.price || 'Price N/A'}</div>
+                    
+                    <div class="gallery">
+                        ${imagesHtml}
+                    </div>
+
+                    <div class="variations">
+                        <h3>Variations & Pricing</h3>
+                        ${variationsHtml}
+                    </div>
+                </div>
+            `;
+            
+            resultDiv.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

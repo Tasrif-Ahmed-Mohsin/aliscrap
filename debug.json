@@ -1,0 +1,2035 @@
+{
+  "productPackInfo": {
+    "fields": {
+      "unitWeight": 1,
+      "uiType": "od_product_pack_info",
+      "label": "商品件重尺"
+    },
+    "id": "productPackInfo",
+    "meta": {
+      "scriptFileName": "pcOfferDetailCrossAttributesViewcomposer"
+    },
+    "position": "body",
+    "tag": "productPackInfo",
+    "type": "od_product_pack_info"
+  },
+  "screen": {
+    "fields": {
+      "uiType": "od_region",
+      "className": "region region-screen",
+      "label": "主屏幕"
+    },
+    "id": "screen",
+    "meta": {},
+    "position": "body",
+    "tag": "screen",
+    "type": "od_region"
+  },
+  "description": {
+    "fields": {
+      "bigPromotionBanner": {
+        "hasBigPromotion": false,
+        "bannerUrl": "",
+        "bannerJumpUrl": "https://shop05a8a88t52233.1688.com/page/activity.htm?offerId=1002546674170#promotion"
+      },
+      "uiType": "od_product_description",
+      "detailUrl": "https://itemcdn.tmall.com/1688offer/icoss3504231619cd69cc11ed0a9289",
+      "label": "详情描述",
+      "isControlKnifeOffer": false,
+      "leafCategoryId": 201303322
+    },
+    "id": "description",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscDetailViewcomposer"
+    },
+    "position": "body",
+    "tag": "description",
+    "type": "od_product_description"
+  },
+  "consign": {
+    "fields": {
+      "uiType": "od_consign",
+      "label": "分销组件"
+    },
+    "id": "consign",
+    "meta": {},
+    "position": "body",
+    "tag": "consign",
+    "type": "od_consign"
+  },
+  "kjServices": {
+    "fields": {
+      "uiType": "od_kj_services",
+      "label": "跨境服务"
+    },
+    "id": "kjServices",
+    "meta": {},
+    "position": "body",
+    "tag": "kjServices",
+    "type": "od_kj_services"
+  },
+  "shippingServices": {
+    "fields": {
+      "unitWeight": 1,
+      "buyerProtectionModel": [
+        {
+          "serviceCode": "qtwlybt",
+          "serviceShortCode": "qtwlybt",
+          "type": "protect",
+          "enabled": true,
+          "forceUseSubPtsCodes": false,
+          "serviceVersion": 2,
+          "bigLogo": "https://img.alicdn.com/imgextra/i2/O1CN01dNPHxv1UZhbWE3yPO_!!6000000002532-2-tps-32-32.png",
+          "packageBuyerDesc": "7天无理由退货",
+          "logo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+          "middleLogo": "https://img.alicdn.com/imgextra/i2/O1CN01H10f2n1gAJ1vgHRgN_!!6000000004101-2-tps-24-24.png",
+          "agreementPage": "https://rule.1688.com/?+tracelog=aliguize_wzdh01&type=detail&ruleId=20004568&cId=3044#/rule/detail?ruleId=20004568&cId=3044",
+          "hugeLogo": "https://img.alicdn.com/imgextra/i1/O1CN01qUUUwV1RIo98arRvQ_!!6000000002089-2-tps-58-58.png",
+          "littleLogo": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+          "shortSellerDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+          "shortBuyerDesc": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+          "largeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01iYPe5E1YGhdWMDnh8_!!6000000003032-2-tps-48-48.png",
+          "serviceName": "7天无理由退货",
+          "extendInfo": {
+            "popDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。"
+          },
+          "userId": 2220746735841,
+          "moreHugeLogo": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+          "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具",
+          "textDesc": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+          "logicGroupId": "4"
+        },
+        {
+          "serviceCode": "ssbxsfh",
+          "serviceShortCode": "D",
+          "productPage": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+          "type": "protect",
+          "enabled": true,
+          "forceUseSubPtsCodes": false,
+          "serviceVersion": 2,
+          "bigLogo": "https://cbu01.alicdn.com/cms/upload/2015/839/305/2503938_1964054271.png",
+          "packageBuyerDesc": "晚发必赔",
+          "logo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+          "middleLogo": "https://cbu01.alicdn.com/cms/upload/2015/867/805/2508768_1964054271.png",
+          "agreementPage": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_b2b/suit_bu1_b2b202104072140_25758.html",
+          "agreeDeliveryHours": 48,
+          "hugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/008/705/2507800_1964054271.png",
+          "littleLogo": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+          "shortSellerDesc": "开通此服务的卖家，优先获得专场曝光，醒目的标识展示，现货保障刺激买家下单。",
+          "shortBuyerDesc": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+          "largeLogo": "https://cbu01.alicdn.com/cms/upload/2015/610/615/2516016_1964054271.png",
+          "serviceName": "晚发必赔",
+          "extendInfo": {
+            "popDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+            "delivery_days": "2"
+          },
+          "userId": 2220746735841,
+          "moreHugeLogo": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+          "currentStep": 1,
+          "instruction": "当前开放类目： 1）纺织、皮革 2）家用电器 3）数码、电脑 4）能源 5）交通运输 6）传媒、广电 7）橡塑 8）灯饰照明 9）五金、工具 10）环保 11）医药、保养 12）办公、文化 13）包装 14）商务服务 15）汽摩及配件 16）美容护肤/彩妆 17）玩具 18）男装 19）女装 20）仪器仪表 21）个护/家清 22）成人用品 23）建材 24）农业 25）食品酒水 26）电工电气 27）化工 28）冶金矿产 29）家装建材 30）居家日用品 31）运动户外 32）服饰配件、饰品 33）电子元器件 34）机械及行业设备 35）安全、防护 36）印刷 37）家纺家饰 38）童装 39）内衣 40）通信产品 41）机床 42）加工 43）二手设备转让 44）鞋 45）箱包皮具 46）宠物及园艺 47）汽车用品 48）钢铁 49）餐饮生鲜 50）日用餐厨饮具 51）收纳清洁用具 52）新能源",
+          "textDesc": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+          "ptsOfferStepModels": [
+            {
+              "selectedStartQuantity": 1,
+              "selectedPtsOfferTagModel": {
+                "serviceCode": "ssbxsfh",
+                "serviceName": "48小时发货",
+                "required": false,
+                "disabled": false,
+                "agreeDeliveryHours": 48,
+                "selected": false
+              },
+              "selected": false
+            }
+          ],
+          "logicGroupId": "1"
+        }
+      ],
+      "freeEndAmount": -1,
+      "hideDeliveryTime": false,
+      "minWeight": 1,
+      "logistics": "",
+      "officialLogistics": false,
+      "templateId": 1,
+      "targetLocation": "选择配送地址为您计算运费及送达时间",
+      "sendAddressCode": "895755796",
+      "price": "9.61",
+      "deliveryLimitText": "承诺48小时发货",
+      "text": "卖家承担运费",
+      "freightInfo": {
+        "unitWeight": 1,
+        "freeEndAmount": -1,
+        "templateRemark": "平台指导运费",
+        "deliveryLimit": 2,
+        "officialLogistics": false,
+        "marketingFreePostage": true,
+        "locationDivisionCode": "330782",
+        "deliveryFulfillmentSolution": {
+          "offerId": 1002546674170,
+          "deliveryServiceDesc": ""
+        },
+        "subTemplateId": 1,
+        "logisticsText": "承诺48小时发货",
+        "deliveryFee": {
+          "name": "FREE"
+        },
+        "freeDeliverFee": true,
+        "location": "浙江省金华市",
+        "locationCode": "895755796",
+        "skuWeight": {}
+      },
+      "isSkuTradeSupported": true,
+      "trackInfo": {},
+      "buyerProtectionScene": "dsc",
+      "label": "物流发货",
+      "isShowLogistics": false,
+      "deliveryServiceDesc": "",
+      "deliveryLimitTimeModel": {
+        "trimTextPrefix": true,
+        "textColor": "#22AC60",
+        "attrs": {
+          "offerUnit": "件",
+          "logisticsTimeServiceType": "yjf",
+          "ptsOfferStepModels": [
+            {
+              "selectedStartQuantity": 1,
+              "selectedPtsOfferTagModel": {
+                "serviceCode": "ssbxsfh",
+                "serviceName": "48小时发货",
+                "required": false,
+                "disabled": false,
+                "agreeDeliveryHours": 48,
+                "selected": false
+              },
+              "selected": false
+            }
+          ]
+        },
+        "limitTimeDay": 2,
+        "expectSendHour": 6,
+        "offerId": 1002546674170,
+        "orderCntLevelText": "",
+        "limitTimeDesc": "承诺48小时发货",
+        "expectTimeDesc": "预计6小时发货"
+      },
+      "volume": 0,
+      "unit": "件",
+      "deliveryFee": "FREE",
+      "startAmount": 1,
+      "postFree": true,
+      "uiType": "od_shipping_services",
+      "hideLogisticsClick": false,
+      "location": "浙江省金华市",
+      "freeDeliverFee": true,
+      "protectionInfos": [
+        {
+          "longDescription": "卖家承诺买家签收货物后7天内，在“商品完好”的情形下，向买家提供退货服务。",
+          "serviceCode": "qtwlybt",
+          "description": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+          "serviceName": "7天无理由退货",
+          "type": "protect",
+          "logoUrl": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+          "logoUrl_64_64": "https://img.alicdn.com/imgextra/i2/O1CN01NyKX2m1pKgXu54Rve_!!6000000005342-2-tps-64-64.png",
+          "logoUrl_16_16": "https://img.alicdn.com/imgextra/i1/O1CN01YIe8Lk1vxyDWgdkPQ_!!6000000006240-2-tps-16-16.png",
+          "buyerDescription": "7天无理由退货"
+        },
+        {
+          "longDescription": "卖家在承诺买家保障服务的基础上，向买家提供“48小时发货延必赔”的服务。在买家通过支付宝担保交易完成付款或通过货到付款下单成功后，卖家承诺在买家支付成功起48小时内发货。如卖家未履行前述承诺，买家可在指定期限内发起维权，并申请赔付。",
+          "serviceLink": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+          "serviceCode": "ssbxsfh",
+          "description": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+          "serviceName": "晚发必赔",
+          "type": "protect",
+          "logoUrl": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+          "logoUrl_64_64": "https://cbu01.alicdn.com/cms/upload/2015/460/315/2513064_1964054271.png",
+          "logoUrl_16_16": "https://cbu01.alicdn.com/cms/upload/2015/177/505/2505771_1964054271.png",
+          "buyerDescription": "晚发必赔",
+          "agreeDeliveryHours": 48
+        }
+      ],
+      "skuWeight": {
+        "$ref": "$.result.data.shippingServices.fields.freightInfo.skuWeight"
+      }
+    },
+    "id": "shippingServices",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscLogisticsViewcomposer"
+    },
+    "position": "body",
+    "tag": "shippingServices",
+    "type": "od_shipping_services"
+  },
+  "widgets": {
+    "fields": {
+      "uiType": "od_widgets",
+      "label": "边角工具插件"
+    },
+    "id": "widgets",
+    "meta": {},
+    "position": "body",
+    "tag": "widgets",
+    "type": "od_widgets"
+  },
+  "cart": {
+    "fields": {
+      "partition": [
+        2,
+        1
+      ],
+      "uiType": "od_cart_sider",
+      "label": "选款区"
+    },
+    "id": "cart",
+    "meta": {},
+    "position": "body",
+    "tag": "cart",
+    "type": "od_cart_sider"
+  },
+  "chromePlugin": {
+    "fields": {
+      "uiType": "od_chrome_plugin",
+      "label": "chrome插件"
+    },
+    "id": "chromePlugin",
+    "meta": {},
+    "position": "body",
+    "tag": "chromePlugin",
+    "type": "od_chrome_plugin"
+  },
+  "shopProductCombine": {
+    "fields": {
+      "uiType": "od_shop_product_combine",
+      "label": "商家搭配组货"
+    },
+    "id": "shopProductCombine",
+    "meta": {},
+    "position": "body",
+    "tag": "shopProductCombine",
+    "type": "od_shop_product_combine"
+  },
+  "shopProductRecommend": {
+    "fields": {
+      "uiType": "od_shop_product_recommend",
+      "label": "商家自营销推荐"
+    },
+    "id": "shopProductRecommend",
+    "meta": {},
+    "position": "body",
+    "tag": "shopProductRecommend",
+    "type": "od_shop_product_recommend"
+  },
+  "userRights": {
+    "fields": {
+      "hidePlusMonthCard": false,
+      "trackInfo": {},
+      "testParam": "test",
+      "operateType": "QUERY_BENEFIT",
+      "uiType": "od_user_rights",
+      "label": "月卡、权益",
+      "isShow": false
+    },
+    "id": "userRights",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscFinaceServiceViewcomposer"
+    },
+    "position": "body",
+    "tag": "userRights",
+    "type": "od_user_rights"
+  },
+  "customMade": {
+    "fields": {
+      "uiType": "od_custom_made",
+      "label": "定制项"
+    },
+    "id": "customMade",
+    "meta": {},
+    "position": "body",
+    "tag": "customMade",
+    "type": "od_custom_made"
+  },
+  "sideRecommend": {
+    "fields": {
+      "uiType": "od_side_recommend",
+      "label": "侧边推荐"
+    },
+    "id": "sideRecommend",
+    "meta": {},
+    "position": "body",
+    "tag": "sideRecommend",
+    "type": "od_side_recommend"
+  },
+  "mainServices": {
+    "fields": {
+      "trackInfo": {},
+      "guaranteeList": [
+        {
+          "serviceName": "7天无理由退货",
+          "description": "满足相应条件下，卖家需支持7天无理由，其中定制订单不支持“7天无理由退货”。",
+          "serviceCode": "qtwlybt",
+          "textColor": "#222222"
+        },
+        {
+          "serviceName": "晚发必赔",
+          "description": "若商家未按订单约定的时间发货，您可以在订单详情申请赔付",
+          "serviceCode": "ssbxsfh",
+          "serviceLink": "https://air.1688.com/app/ctf-page/protection-air/claim-rule.html",
+          "textColor": "#222222"
+        }
+      ],
+      "uiType": "od_services",
+      "label": "服务"
+    },
+    "id": "mainServices",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscBuyerServiceViewcomposer"
+    },
+    "position": "body",
+    "tag": "mainServices",
+    "type": "od_services"
+  },
+  "sizeChart": {
+    "fields": {
+      "uiType": "od_size_chart",
+      "label": "商品尺码表"
+    },
+    "id": "sizeChart",
+    "meta": {},
+    "position": "body",
+    "tag": "sizeChart",
+    "type": "od_size_chart"
+  },
+  "quickPanel": {
+    "fields": {
+      "uiType": "od_quick_panel",
+      "position": "sticky",
+      "label": "快速下单面板"
+    },
+    "id": "quickPanel",
+    "meta": {},
+    "position": "body",
+    "tag": "quickPanel",
+    "type": "od_quick_panel"
+  },
+  "submitOrder": {
+    "fields": {
+      "isSkuOffer": true,
+      "marketScene": "default",
+      "isAddCartPromotion": false,
+      "pstatus": "remind",
+      "remindSceneKey": "",
+      "channelType": "dsc",
+      "componentVersion": "93",
+      "label": "下单",
+      "isPicPrivate": false,
+      "isPricePrivate": false,
+      "remindText": "",
+      "uiType": "od_submit_order",
+      "businessType": "default",
+      "operateItems": [
+        {
+          "operateType": "ORDER",
+          "operateDisplayStatus": "ORDER_NOW",
+          "disType": "TEXT",
+          "imgUrl": "",
+          "data": {},
+          "name": "立即下单"
+        },
+        {
+          "operateType": "ADD_CART",
+          "operateDisplayStatus": "ADD_CART",
+          "disType": "TEXT",
+          "imgUrl": "",
+          "data": {},
+          "name": "加采购车"
+        }
+      ],
+      "freightInfo": {
+        "officialLogistics": false,
+        "subTemplateId": 1,
+        "unitWeight": 1,
+        "skuWeight": {},
+        "queryFlag": false
+      }
+    },
+    "id": "submitOrder",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscOrderViewcomposer"
+    },
+    "position": "body",
+    "tag": "submitOrder",
+    "type": "od_submit_order"
+  },
+  "navTabs": {
+    "fields": {
+      "uiType": "od_nav_tabs",
+      "label": "详情区域页签"
+    },
+    "id": "navTabs",
+    "meta": {},
+    "position": "body",
+    "tag": "navTabs",
+    "type": "od_nav_tabs"
+  },
+  "promotionBanner": {
+    "fields": {
+      "bannerImage": "",
+      "uiType": "od_promotion_banner",
+      "label": "营销氛围"
+    },
+    "id": "promotionBanner",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscDacubannerViewcomposer"
+    },
+    "position": "body",
+    "tag": "promotionBanner",
+    "type": "od_promotion_banner"
+  },
+  "gallery": {
+    "fields": {
+      "offerImgList": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.jpg"
+      ],
+      "isBestOffer": true,
+      "subject": "鬼灭之刃诞生花系列盲盒炭治郎祢豆子善逸手办公仔桌摆件礼物可爱",
+      "isBestOfferUrl": "https://img.alicdn.com/tfs/TB1ZwSvqG6qK1RjSZFmXXX0PFXa-100-100.png",
+      "consignAiMate": false,
+      "video": {
+        "coverUrl": "https://img.alicdn.com/imgextra/i3/6000000007160/O1CN01oS7zbW22lKwUAPtoW_!!6000000007160-0-tbvideo.jpg",
+        "videoId": 546210529209,
+        "state": 6,
+        "title": "2025121421150045.mp4",
+        "videoUrl": "https://cloud.video.taobao.com/play/u/2220746735841/p/2/e/6/t/1/546210529209.mp4"
+      },
+      "componentVersion": "1",
+      "label": "商品主图",
+      "canShowAllImage": true,
+      "mainImage": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.jpg",
+        "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.jpg"
+      ],
+      "uiType": "od_picture_gallery",
+      "offerId": 1002546674170
+    },
+    "id": "gallery",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscImageViewcomposer"
+    },
+    "position": "body",
+    "tag": "gallery",
+    "type": "od_picture_gallery"
+  },
+  "headers": {
+    "fields": {
+      "uiType": "od_header",
+      "label": "顶部header",
+      "experimentGroup": 1
+    },
+    "id": "headers",
+    "meta": {},
+    "position": "body",
+    "tag": "headers",
+    "type": "od_header"
+  },
+  "product": {
+    "fields": {
+      "uiType": "od_region",
+      "className": "region region-screen-product",
+      "label": "产品"
+    },
+    "id": "product",
+    "meta": {},
+    "position": "body",
+    "tag": "product",
+    "type": "od_region"
+  },
+  "middle": {
+    "fields": {
+      "uiType": "od_header",
+      "label": "中间middle",
+      "experimentGroup": 2
+    },
+    "id": "middle",
+    "meta": {},
+    "position": "body",
+    "tag": "middle",
+    "type": "od_header"
+  },
+  "shopNavigation": {
+    "fields": {
+      "uiType": "od_shop_navigation",
+      "label": "旺铺导航"
+    },
+    "id": "shopNavigation",
+    "meta": {},
+    "position": "body",
+    "tag": "shopNavigation",
+    "type": "od_shop_navigation"
+  },
+  "Root": {
+    "fields": {
+      "isRoot": true,
+      "uiType": "od_region",
+      "label": "商品详情页",
+      "dataJson": {
+        "isSourcePromotion": false,
+        "channelType": "dsc",
+        "needSkuHide": false,
+        "qrCode": "https://m.1688.com/offer/1002546674170.html?sk=order",
+        "detailModel": [],
+        "hasPurcharseMark": false,
+        "showOldOD": false,
+        "abTestInfo": {
+          "exposeClickInfo": {},
+          "pvTrackInfo": {
+            "AbTIds": "30739",
+            "AbIds": "2515414#2517407#2494220#2518968"
+          },
+          "abTestValueInfo": {
+            "od_new_black_brand_txt": "1",
+            "showOfferSizeTable": "1",
+            "page_yanxuan_od_auth": "1",
+            "gypsanweisku": "1",
+            "zeus_gyp_onhand_price": "1",
+            "sku_short_title": "base",
+            "page_zgc_dimension": "0",
+            "page_yanxuan_qualityCert": "Y",
+            "page_dsc_xhdz_upgrade": "1",
+            "page_add_custom_service": "1",
+            "version": "2"
+          }
+        },
+        "images": [
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01lPO2VL1t1EX0Otfol_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN013amEsU1t1EX1H6SUF_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01sTCOkA1t1EX0OsCM5_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01SdyNCm1t1EX1dPBBn_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01ady53k1t1EX0PQlo7_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.jpg"
+          },
+          {
+            "size220x220ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.220x220.jpg",
+            "imageURI": "img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg",
+            "searchImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.search.jpg",
+            "summImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.summ.jpg",
+            "size310x310ImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.310x310.jpg",
+            "fullPathImageURI": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg"
+          }
+        ],
+        "offerModelSign": {
+          "isBuyerProtection": true,
+          "isWeChatSupply": true,
+          "isConsignMarketOffer": true,
+          "isYxTopOffer": true,
+          "isSupportMix": true,
+          "isOnePsale": true,
+          "isSupplyStockOffer": true,
+          "isSsbxsfh": true,
+          "isGovCouponOfferInOD": false,
+          "hasSearchPicture": true,
+          "hasWhitePicInOffer": true,
+          "hasOrder": true,
+          "isTbDistributionOffer": true,
+          "isToKuaiShou": true,
+          "isAegisTrade": true,
+          "isHtqqItem": true,
+          "isKJFreeShipping": true,
+          "isToTikTok": true,
+          "isBestOffer": true,
+          "isHTQQOffer": true,
+          "isSkuTradeSupported": true,
+          "isSearchOffer": true,
+          "isOpenOffer": true,
+          "isAeJit": true,
+          "isCndOffer": true,
+          "isAlipaySupported": true,
+          "isGpfOffer": true,
+          "isDistributionPriceUpgrade": true,
+          "isYjbyOffer": true,
+          "isSupportStock": true,
+          "isCUserOutboundRed": true,
+          "isChtOffer": true,
+          "isSupportVideo": true,
+          "hasSendGoodsAddress": true,
+          "isSwbpBasePoolOffer": true
+        },
+        "mixModel": {
+          "isSupportMix": true,
+          "mixOneForSale": true,
+          "mixNumber": 1,
+          "mixAmount": 1
+        },
+        "easeBuyDealer": {
+          "isEaseBuyDealer": true,
+          "showText": [
+            "延期必赔",
+            "品质保障",
+            "资金安全"
+          ],
+          "image": "https://gw.alicdn.com/imgextra/i4/O1CN011mMQtb1FeXSdkkzba_!!6000000000512-2-tps-180-58.png",
+          "bgImage": "https://gw.alicdn.com/imgextra/i4/O1CN01PSCyn71m4hnAGoMEY_!!6000000004901-2-tps-1428-226.png",
+          "link": "https://factory.1688.com/zgc/page/2hlo2m80.html?__pageId__=167928&cms_id=167928&wh_pha=true&__existtitle__=1"
+        },
+        "sellerSign": {
+          "isIndustrySeller": false,
+          "isSlsj": false,
+          "signs": {
+            "isIndustrySeller": false,
+            "isSlsj": false,
+            "isChtMember": false,
+            "isTp": true,
+            "isEaseBuyDealer": true,
+            "isFactoryDealer": false
+          },
+          "isTp": true,
+          "isChtMember": false
+        },
+        "canIgnoreConsignRelation": false,
+        "isSkuOffer": true,
+        "hasBigPromotion": false,
+        "tempModel": {
+          "offerUnit": "件",
+          "offerId": 1002546674170,
+          "offerTitle": "鬼灭之刃诞生花系列盲盒炭治郎祢豆子善逸手办公仔桌摆件礼物可爱",
+          "defaultOfferImg": "",
+          "topCategoryId": 67,
+          "postCategoryId": 201303322,
+          "companyName": "义乌市骞鸢玩具有限公司",
+          "sellerUserId": 2220746735841,
+          "sellerLoginId": "义乌市骞鸢玩具有限公司",
+          "sellerMemberId": "b2b-2220746735841c8f5a",
+          "winportUrl": "https://winport.m.1688.com/page/index.html?memberId=b2b-2220746735841c8f5a",
+          "saledCount": 125
+        },
+        "exposeInfo": {
+          "exposeArgs": {
+            "isYanxuanOffer": "false",
+            "sceneType": "default",
+            "ipvId": "0b0fdc4f17761633954497255e0eb2",
+            "isPlusMember": "false",
+            "verticalType": "default",
+            "offerId": "1002546674170",
+            "channelType": "dsc"
+          }
+        },
+        "offerMemberTags": [
+          4266049,
+          4306497,
+          180739,
+          210944,
+          518658,
+          503298,
+          4845121,
+          553986,
+          642050,
+          4890177,
+          595970,
+          649730,
+          627202,
+          590338,
+          647170,
+          5219905,
+          5351489,
+          5248065,
+          5261377,
+          5247553,
+          3791361,
+          3793921,
+          3775489,
+          3778561,
+          3780097,
+          3791873,
+          3824641,
+          3825153,
+          3823105,
+          3824129,
+          3825665,
+          3833857,
+          3823617,
+          4055553,
+          3997697,
+          3953153,
+          4136449,
+          4131841,
+          4134913,
+          4109313,
+          232000,
+          483394,
+          476738,
+          481346,
+          364098,
+          335938,
+          576578,
+          562242,
+          611906,
+          5032961,
+          5215745,
+          5338113,
+          5305857,
+          5259777,
+          5248001,
+          3788865,
+          3767873,
+          3768385,
+          3778625,
+          3824705,
+          3824193,
+          3825217,
+          3833921,
+          3825729,
+          3823681,
+          3803201,
+          3823169,
+          3820097,
+          4056129,
+          4020801,
+          3977281,
+          4158017,
+          4134977,
+          4307649,
+          424578,
+          516738,
+          278146,
+          562306,
+          626306,
+          642690,
+          5183681,
+          5356225,
+          5291713,
+          2691203,
+          3768961,
+          3784321,
+          3872385,
+          3873409,
+          3823745,
+          3823233,
+          3824257,
+          3825793,
+          3842177,
+          3833985,
+          3825281,
+          4047489,
+          4147329,
+          4135041,
+          4157057,
+          4100737,
+          4087937,
+          209600,
+          396482,
+          501442,
+          302786,
+          535234,
+          642754,
+          641730,
+          626370,
+          592578,
+          5347969,
+          5340801,
+          5271681,
+          5287553,
+          3056835,
+          3778753,
+          3768001,
+          3824833,
+          3824321,
+          3823297,
+          3822785,
+          3820225,
+          3819713,
+          3801793,
+          3825345,
+          3849921,
+          3832001,
+          3825857,
+          4055745,
+          4157121,
+          4080321,
+          4077249,
+          140032,
+          235776,
+          476930,
+          480002,
+          514818,
+          481538,
+          540930,
+          563970,
+          589570,
+          641794,
+          642818,
+          647426,
+          5095745,
+          5159233,
+          5139777,
+          5117249,
+          5346625,
+          5266753,
+          5277505,
+          2937603,
+          3878657,
+          3907841,
+          3824897,
+          3825409,
+          3820289,
+          3822849,
+          3823361,
+          3824385,
+          3823873,
+          4115713,
+          4307713,
+          209216,
+          438594,
+          439106,
+          473410,
+          493378,
+          586050,
+          643394,
+          646466,
+          615746,
+          642370,
+          5001473,
+          5232385,
+          5210369,
+          3881793,
+          3824449,
+          3825473,
+          3824961,
+          3819841,
+          3823425,
+          3822913,
+          3945793,
+          4169025,
+          4134721,
+          4087105,
+          4249025,
+          201088,
+          236416,
+          441218,
+          425858,
+          421250,
+          458114,
+          522626,
+          340866,
+          572290,
+          531842,
+          641922,
+          591234,
+          619906,
+          645506,
+          604546,
+          1100451329,
+          3791233,
+          3770753,
+          3823489,
+          3822977,
+          3825537,
+          3833729,
+          3824001,
+          3825025,
+          3819393,
+          3820417,
+          3953025,
+          4189569,
+          4134785,
+          170944,
+          210880,
+          455106,
+          414146,
+          493506,
+          502210,
+          270786,
+          339394,
+          624578,
+          642498,
+          593858,
+          5224833,
+          5234049,
+          5162881,
+          5117313,
+          5170049,
+          5326721,
+          5344129,
+          5261185,
+          5292417,
+          3609025,
+          3800001,
+          3792321,
+          3775425,
+          3778497,
+          3768769,
+          3825089,
+          3824577,
+          3825601,
+          3833793,
+          3819969,
+          3811777,
+          3823041,
+          3820993,
+          3966913,
+          3982273
+        ],
+        "hasConsignReation": false,
+        "isPicPrivate": false,
+        "supportPuhuo": true,
+        "isPricePrivate": false,
+        "orderParamModel": {
+          "orderParam": {
+            "saledCount": 125,
+            "mixParam": {
+              "mixNum": 1,
+              "mixAmount": 1,
+              "shopMixNum": 2147483647,
+              "mixBegin": 0,
+              "supportMix": true
+            },
+            "beginNum": 1,
+            "canBookedAmount": 6864,
+            "skuParam": {
+              "skuPriceType": "skuPrice",
+              "skuRangePrices": [
+                {
+                  "price": "9.61",
+                  "beginAmount": "1"
+                },
+                {
+                  "price": "100.10",
+                  "beginAmount": "1"
+                }
+              ]
+            },
+            "flow": "general",
+            "addCartParam": {
+              "cartType": ""
+            }
+          }
+        },
+        "overseaPeople": false,
+        "sevenDaysRefund": true,
+        "offerCrossBorderModel": {
+          "foreignLanguagePackageImages": []
+        },
+        "frontSellerMemberModel": {
+          "frontSellerLoginId": "义乌市骞鸢玩具有限公司",
+          "frontSellerMemberId": "b2b-2220746735841c8f5a",
+          "frontSellerUserId": 2220746735841,
+          "frontOfferId": 1002546674170,
+          "sellerType": "default"
+        },
+        "offerSign": {
+          "isSkuOffer": true,
+          "isPreSell": false,
+          "isConsignMarketOffer": true,
+          "isOnlyNPorcessingOffer": false,
+          "isOfferSupportOnlineTrade": true,
+          "isDistribution": true,
+          "hasBusinessPrice": false,
+          "hasJoinBusinessPrice": false,
+          "isPreSaleOffer": false,
+          "isVirtualCategory": false,
+          "preHeatOfferCanTrade": true,
+          "hasRelationOffer": true,
+          "isChtSingleOffer": true,
+          "isDetailForbidden": false
+        },
+        "componentType": "page",
+        "marketScene": "default",
+        "isActHottimingOffer": false,
+        "filterModel": [],
+        "topBarModel": [],
+        "activityModel": {
+          "activityStartTimestamps": 0,
+          "activityEndTimestamps": 0
+        },
+        "shareModel": [],
+        "operateDisplayStatus": "ORDER_NOW",
+        "reserveData": {},
+        "tmPickScene": false,
+        "skuModel": {
+          "skuProps": [
+            {
+              "fid": 3216,
+              "prop": "颜色",
+              "value": [
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg",
+                  "name": "全套AB款12个不重复【盒装】"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01Bx7oRB1t1EX1dOqPz_!!2220746735841-0-cib.jpg",
+                  "name": "A款全套6个盒装"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01JXarI91t1EX0Osw5Z_!!2220746735841-0-cib.jpg",
+                  "name": "B款全套6个盒装"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01A2didu1t1EX1dOqQ0_!!2220746735841-0-cib.jpg",
+                  "name": "随机6个不重复【盒装】"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN010wT0ZU1t1EX0bSN1e_!!2220746735841-0-cib.jpg",
+                  "name": "随机3个不重复【盒装】"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN01rrA4Ni1t1EX0c5j3V_!!2220746735841-0-cib.jpg",
+                  "name": "随机1个不重复【盒装】"
+                },
+                {
+                  "imageUrl": "https://cbu01.alicdn.com/img/ibank/O1CN010fRPFu1t1EX0vtx9L_!!2220746735841-0-cib.jpg",
+                  "name": "随机1个【袋装】"
+                }
+              ]
+            },
+            {
+              "fid": 446,
+              "prop": "尺寸",
+              "value": [
+                {
+                  "name": "鬼灭之刃诞生花系列"
+                }
+              ]
+            }
+          ],
+          "skuInfoMap": {
+            "A款全套6个盒装&gt;鬼灭之刃诞生花系列": {
+              "specId": "fd8e2587d8888982505db7058f1b4810",
+              "specAttrs": "A款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 980,
+              "skuId": 6158595802962,
+              "isPromotionSku": false
+            },
+            "随机6个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "417e4fff1d9cb461f24db7386b0801d9",
+              "specAttrs": "随机6个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "52.39",
+              "saleCount": 0,
+              "discountPrice": "52.39",
+              "canBookCount": 989,
+              "skuId": 6158595802964,
+              "isPromotionSku": false
+            },
+            "随机3个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "ffbbb12bb8f1d36edf8cb55eba07bfa2",
+              "specAttrs": "随机3个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "29.67",
+              "saleCount": 0,
+              "discountPrice": "29.67",
+              "canBookCount": 990,
+              "skuId": 6158595802965,
+              "isPromotionSku": false
+            },
+            "B款全套6个盒装&gt;鬼灭之刃诞生花系列": {
+              "specId": "608061d5aa7bd9e22bfaea2a83fcfca5",
+              "specAttrs": "B款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 989,
+              "skuId": 6158595802963,
+              "isPromotionSku": false
+            },
+            "随机1个【袋装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "d4f59bb79fc7074732abb069bcd9cd21",
+              "specAttrs": "随机1个【袋装】&gt;鬼灭之刃诞生花系列",
+              "price": "9.61",
+              "saleCount": 0,
+              "discountPrice": "9.61",
+              "canBookCount": 984,
+              "skuId": 6158595802967,
+              "isPromotionSku": false
+            },
+            "全套AB款12个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "cf0840e1d02c472877292799f7c6a920",
+              "specAttrs": "全套AB款12个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "100.10",
+              "saleCount": 0,
+              "discountPrice": "100.10",
+              "canBookCount": 937,
+              "skuId": 6158595802961,
+              "isPromotionSku": false
+            },
+            "随机1个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "950fb4fcf179772a024a43a9fdcd2aba",
+              "specAttrs": "随机1个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "11.55",
+              "saleCount": 0,
+              "discountPrice": "11.55",
+              "canBookCount": 995,
+              "skuId": 6158595802966,
+              "isPromotionSku": false
+            }
+          },
+          "skuPriceScale": "9.61-100.10",
+          "skuInfoMapOriginal": {
+            "A款全套6个盒装&gt;鬼灭之刃诞生花系列": {
+              "specId": "fd8e2587d8888982505db7058f1b4810",
+              "specAttrs": "A款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 980,
+              "skuId": 6158595802962,
+              "isPromotionSku": false
+            },
+            "随机6个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "417e4fff1d9cb461f24db7386b0801d9",
+              "specAttrs": "随机6个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "52.39",
+              "saleCount": 0,
+              "discountPrice": "52.39",
+              "canBookCount": 989,
+              "skuId": 6158595802964,
+              "isPromotionSku": false
+            },
+            "随机3个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "ffbbb12bb8f1d36edf8cb55eba07bfa2",
+              "specAttrs": "随机3个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "29.67",
+              "saleCount": 0,
+              "discountPrice": "29.67",
+              "canBookCount": 990,
+              "skuId": 6158595802965,
+              "isPromotionSku": false
+            },
+            "B款全套6个盒装&gt;鬼灭之刃诞生花系列": {
+              "specId": "608061d5aa7bd9e22bfaea2a83fcfca5",
+              "specAttrs": "B款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 989,
+              "skuId": 6158595802963,
+              "isPromotionSku": false
+            },
+            "随机1个【袋装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "d4f59bb79fc7074732abb069bcd9cd21",
+              "specAttrs": "随机1个【袋装】&gt;鬼灭之刃诞生花系列",
+              "price": "9.61",
+              "saleCount": 0,
+              "discountPrice": "9.61",
+              "canBookCount": 984,
+              "skuId": 6158595802967,
+              "isPromotionSku": false
+            },
+            "全套AB款12个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "cf0840e1d02c472877292799f7c6a920",
+              "specAttrs": "全套AB款12个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "100.10",
+              "saleCount": 0,
+              "discountPrice": "100.10",
+              "canBookCount": 937,
+              "skuId": 6158595802961,
+              "isPromotionSku": false
+            },
+            "随机1个不重复【盒装】&gt;鬼灭之刃诞生花系列": {
+              "specId": "950fb4fcf179772a024a43a9fdcd2aba",
+              "specAttrs": "随机1个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "11.55",
+              "saleCount": 0,
+              "discountPrice": "11.55",
+              "canBookCount": 995,
+              "skuId": 6158595802966,
+              "isPromotionSku": false
+            }
+          },
+          "skuPriceScaleOriginal": "9.61-100.1"
+        },
+        "offerBaseInfo": {
+          "sellerUserId": 2220746735841,
+          "sellerLoginId": "义乌市骞鸢玩具有限公司",
+          "sellerMemberId": "b2b-2220746735841c8f5a",
+          "offerId": 1002546674170,
+          "buyerUserId": 0,
+          "buyerLoginId": 0,
+          "sellerWinportUrl": "https://shop05a8a88t52233.1688.com",
+          "catId": 201303322,
+          "tradeTemplateId": "",
+          "wholeNetworkEvaluation": false,
+          "shieldPcOfferDetail": false
+        },
+        "businessType": "default"
+      }
+    },
+    "id": "Root",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscGlobalDataViewcomposer"
+    },
+    "position": "body",
+    "tag": "Root",
+    "type": "od_region"
+  },
+  "mainPrice": {
+    "fields": {
+      "isBmPrice": false,
+      "channel": "dsc",
+      "isVipPrice": false,
+      "bigPromotionInfo": {
+        "bigPromotionCountdown": -1,
+        "preheatTime": -1,
+        "promotionResources": {},
+        "burstEndTime": -1,
+        "bigPromotionStatus": "NONE",
+        "burstBeginTime": -1
+      },
+      "finalPriceModel": {
+        "tradeWithoutPromotion": {
+          "skuMapOriginal": [
+            {
+              "specId": "fd8e2587d8888982505db7058f1b4810",
+              "specAttrs": "A款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 980,
+              "skuId": 6158595802962,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "417e4fff1d9cb461f24db7386b0801d9",
+              "specAttrs": "随机6个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "52.39",
+              "saleCount": 0,
+              "discountPrice": "52.39",
+              "canBookCount": 989,
+              "skuId": 6158595802964,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "ffbbb12bb8f1d36edf8cb55eba07bfa2",
+              "specAttrs": "随机3个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "29.67",
+              "saleCount": 0,
+              "discountPrice": "29.67",
+              "canBookCount": 990,
+              "skuId": 6158595802965,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "608061d5aa7bd9e22bfaea2a83fcfca5",
+              "specAttrs": "B款全套6个盒装&gt;鬼灭之刃诞生花系列",
+              "price": "52.00",
+              "saleCount": 0,
+              "discountPrice": "52.00",
+              "canBookCount": 989,
+              "skuId": 6158595802963,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "d4f59bb79fc7074732abb069bcd9cd21",
+              "specAttrs": "随机1个【袋装】&gt;鬼灭之刃诞生花系列",
+              "price": "9.61",
+              "saleCount": 0,
+              "discountPrice": "9.61",
+              "canBookCount": 984,
+              "skuId": 6158595802967,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "cf0840e1d02c472877292799f7c6a920",
+              "specAttrs": "全套AB款12个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "100.10",
+              "saleCount": 0,
+              "discountPrice": "100.10",
+              "canBookCount": 937,
+              "skuId": 6158595802961,
+              "isPromotionSku": false
+            },
+            {
+              "specId": "950fb4fcf179772a024a43a9fdcd2aba",
+              "specAttrs": "随机1个不重复【盒装】&gt;鬼灭之刃诞生花系列",
+              "price": "11.55",
+              "saleCount": 0,
+              "discountPrice": "11.55",
+              "canBookCount": 995,
+              "skuId": 6158595802966,
+              "isPromotionSku": false
+            }
+          ],
+          "OfferIsSkuTradeSupported": true,
+          "offerMaxPrice": "100.10",
+          "offerBeginAmount": 1,
+          "offerPriceDisplay": "9.61-100.10",
+          "canBookedAmountOriginal": 6864,
+          "offerMinPrice": "9.61"
+        },
+        "priceBeforeText": "券后"
+      },
+      "marketScene": "default",
+      "trackInfo": {},
+      "isPrivatePrice": false,
+      "originPriceType": "skuPrice",
+      "activityModel": {
+        "beforePro": false,
+        "privilegesType": "default"
+      },
+      "priceModel": {
+        "priceAdv": {
+          "source": "OTHER"
+        },
+        "currentPrices": [
+          {
+            "price": "9.61",
+            "beginAmount": 1
+          },
+          {
+            "price": "100.10",
+            "beginAmount": 1
+          }
+        ],
+        "priceDisplayType": "skuPrice",
+        "priceLabel": ""
+      },
+      "bigPromotion": false,
+      "componentVersion": "93",
+      "label": "价格",
+      "displayType": "normal-sku",
+      "unit": "件",
+      "promotionData": {
+        "couponList": [
+          {
+            "couponType": "ALL_SITE_FREE",
+            "couponContent": "包邮"
+          },
+          {
+            "couponType": "ACTIVITY",
+            "couponContent": "满100减3"
+          }
+        ],
+        "linkUrl": "https://cybert.m.1688.com/43ohz283.html?sceneName=chimera_16527",
+        "pageName": "Page_GetCoupon",
+        "couponInfoList": [
+          {
+            "type": "ALL_SITE_FREE",
+            "name": "全店包邮",
+            "displayType": "text",
+            "extraInfo": {
+              "uiType": "ALL_SITE_FREE"
+            },
+            "uiType": "ALL_SITE_FREE",
+            "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+            "buttonName": "查看",
+            "promotionItems": [
+              {
+                "detail": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+                "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+                "label": "包邮",
+                "extendDetail": "",
+                "discountFee": 0,
+                "availablePeriod": "不免邮区域:海南,内蒙古,甘肃,青海,宁夏,新疆,西藏,台湾,香港,澳门,海外",
+                "startTime": "Wed Oct 22 17:40:49 CST 2025"
+              }
+            ]
+          },
+          {
+            "type": "SHOP_PROMOTION",
+            "name": "满优惠",
+            "displayType": "text",
+            "extraInfo": {
+              "uiType": "ACTIVITY"
+            },
+            "uiType": "ACTIVITY",
+            "summary": "单笔订单满100元，减3元",
+            "buttonName": "查看",
+            "promotionItems": [
+              {
+                "detail": "单笔订单满100元，减3元",
+                "summary": "单笔订单满100元，减3元",
+                "label": "满100减3",
+                "extendDetail": "",
+                "discountFee": 3,
+                "availablePeriod": "有效期：2025.09.29 00:00:00-2026.10.02 00:00:00",
+                "startTime": "Mon Sep 29 00:00:00 CST 2025",
+                "activityUrl": "https://shop05a8a88t52233.1688.com/page/shopactivity.htm?aid=1257875067",
+                "actionName": "去凑单"
+              }
+            ]
+          }
+        ],
+        "buttonName": "查看",
+        "bgColor": "#ff0e31",
+        "offerId": 1002546674170,
+        "bgPic": "https://gw.alicdn.com/tfs/TB1gmeRp7cx_u4jSZFlXXXnUFXa-1071-138.png"
+      },
+      "secondaryAtmosphere": {},
+      "uiType": "od_main_price",
+      "isPlusPrice": false,
+      "originalPricesWithoutPromotion": [
+        {
+          "price": "9.61",
+          "beginAmount": "1"
+        },
+        {
+          "price": "100.10",
+          "beginAmount": "1"
+        }
+      ]
+    },
+    "id": "mainPrice",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscPrice25Viewcomposer"
+    },
+    "position": "body",
+    "tag": "mainPrice",
+    "type": "od_main_price"
+  },
+  "bottom": {
+    "fields": {
+      "uiType": "od_region",
+      "className": "region region-bottom",
+      "label": "页面尾部"
+    },
+    "id": "bottom",
+    "meta": {},
+    "position": "body",
+    "tag": "bottom",
+    "type": "od_region"
+  },
+  "productWarning": {
+    "fields": {
+      "isCautionOffer": false,
+      "uiType": "od_product_warning",
+      "cautionText": "1688提醒您：",
+      "label": "警示证书",
+      "officialDocInfos": []
+    },
+    "id": "productWarning",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscOfficialDocViewcomposer"
+    },
+    "position": "body",
+    "tag": "productWarning",
+    "type": "od_product_warning"
+  },
+  "productAttributes": {
+    "fields": {
+      "uiType": "od_product_attributes",
+      "label": "商品参数"
+    },
+    "id": "productAttributes",
+    "meta": {
+      "errorMessage": "class com.alibaba.fastjson.JSONArray cannot be cast to class com.alibaba.fastjson.JSONObject (com.alibaba.fastjson.JSONArray and com.alibaba.fastjson.JSONObject are in unnamed module of loader com.taobao.pandora.boot.loader.LaunchedURLClassLoader @6104fc)",
+      "scriptFileName": "pcOfferDetailProcessingAttributesViewcomposer"
+    },
+    "position": "body",
+    "tag": "productAttributes",
+    "type": "od_product_attributes"
+  },
+  "skuPreview": {
+    "fields": {
+      "uiType": "od_sku_preview",
+      "label": "商品sku预览"
+    },
+    "id": "skuPreview",
+    "meta": {},
+    "position": "body",
+    "tag": "skuPreview",
+    "type": "od_sku_preview"
+  },
+  "officialInspection": {
+    "fields": {
+      "uiType": "od_official_inspection",
+      "label": "官方验货"
+    },
+    "id": "officialInspection",
+    "meta": {},
+    "position": "body",
+    "tag": "officialInspection",
+    "type": "od_official_inspection"
+  },
+  "orderPanel": {
+    "fields": {
+      "uiType": "od_order_panel",
+      "label": "下单面板"
+    },
+    "id": "orderPanel",
+    "meta": {},
+    "position": "body",
+    "tag": "orderPanel",
+    "type": "od_order_panel"
+  },
+  "productTitle": {
+    "fields": {
+      "isBestOffer": true,
+      "shopInfo": {
+        "isPmPlus": false,
+        "isFollow": false,
+        "authCompanyName": "义乌市骞鸢玩具有限公司",
+        "sellerSlrServiceScore": "3.5分",
+        "isPmSource": false,
+        "isPm": false,
+        "companyName": "义乌市骞鸢玩具有限公司",
+        "cardType": "default",
+        "byrRepeatRate3m": "43.03%"
+      },
+      "rateInfo": {
+        "commonTagNodeList": [
+          {
+            "name": "全部",
+            "count": 63,
+            "type": "common"
+          },
+          {
+            "name": "有图",
+            "count": 1,
+            "type": "common"
+          },
+          {
+            "name": "好评",
+            "count": 63,
+            "type": "common"
+          },
+          {
+            "name": "最新#null",
+            "count": 41,
+            "type": "common"
+          }
+        ],
+        "goodRates": 96.9,
+        "switchRedirect": true,
+        "goodsGrade": 4.9,
+        "mixTbRate": false,
+        "impressionTagNodeList": [
+          {
+            "name": "服务很好",
+            "count": 33,
+            "type": "impr"
+          },
+          {
+            "name": "价格很便宜",
+            "count": 28,
+            "type": "impr"
+          },
+          {
+            "name": "入手推荐",
+            "count": 12,
+            "type": "impr"
+          },
+          {
+            "name": "性价比超高",
+            "count": 10,
+            "type": "impr"
+          },
+          {
+            "name": "下单可以",
+            "count": 6,
+            "type": "impr"
+          },
+          {
+            "name": "推荐值得",
+            "count": 5,
+            "type": "impr"
+          },
+          {
+            "name": "质量不错",
+            "count": 4,
+            "type": "impr"
+          },
+          {
+            "name": "放在桌上很治愈",
+            "count": 3,
+            "type": "impr"
+          },
+          {
+            "name": "发货速度给力",
+            "count": 3,
+            "type": "impr"
+          }
+        ],
+        "showUserHisRec": false
+      },
+      "saleCountDate": "全网销量",
+      "label": "产品标题",
+      "title": "鬼灭之刃诞生花系列盲盒炭治郎祢豆子善逸手办公仔桌摆件礼物可爱",
+      "saleNum": "1.0万+",
+      "labels": [
+        "一件代发"
+      ],
+      "isShowEdit": false,
+      "tagList": [
+        {
+          "img": "https://gw.alicdn.com/imgextra/i4/O1CN01regVZY1iimPD1knzd_!!6000000004447-2-tps-120-64.png",
+          "text": "1688严选",
+          "type": "1688_ELECTION",
+          "detail": [
+            {
+              "icon": "https://gw.alicdn.com/imgextra/i2/O1CN01ocXV9u1k1qAcVUuZa_!!6000000004624-2-tps-41-36.png",
+              "text": "品质严选，放心采购"
+            },
+            {
+              "icon": "https://gw.alicdn.com/imgextra/i3/O1CN01H5WVsg28BVIahbDwn_!!6000000007894-2-tps-54-57.png",
+              "text": "现货快发，服务保障"
+            }
+          ]
+        },
+        {
+          "img": "https://gw.alicdn.com/imgextra/i1/O1CN01aIT6Mz1ypDoow2ZEp_!!6000000006627-2-tps-200-64.png",
+          "text": "镇店之宝",
+          "type": "BEST_OFFER",
+          "detail": [
+            {
+              "icon": "https://gw.alicdn.com/imgextra/i1/O1CN01hnefLF1Vk4AiuDWHQ_!!6000000002690-2-tps-63-57.png",
+              "text": "近期热销，店铺主推"
+            },
+            {
+              "icon": "https://gw.alicdn.com/imgextra/i3/O1CN01H5WVsg28BVIahbDwn_!!6000000007894-2-tps-54-57.png",
+              "text": "快速响应，服务保障"
+            }
+          ]
+        }
+      ],
+      "unit": "件",
+      "editUrl": "https://offer.1688.com/offer/post/fillProductInfo.htm?operator=edit&offerId=1002546674170&pageSrc=fusion&frontVersion=2017",
+      "scrollInfo": [
+        {
+          "prefix": "已售",
+          "text": "100+",
+          "suffix": "件"
+        },
+        {
+          "prefix": "全网销量",
+          "text": "1.0万+",
+          "suffix": "件"
+        }
+      ],
+      "uiType": "od_title",
+      "newSaleCount": "全网销量",
+      "officialActivityIcon": ""
+    },
+    "id": "productTitle",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscTitleViewcomposer"
+    },
+    "position": "body",
+    "tag": "productTitle",
+    "type": "od_title"
+  },
+  "skuSelection": {
+    "fields": {
+      "uiType": "od_sku_selection",
+      "label": "规格选择器"
+    },
+    "id": "skuSelection",
+    "meta": {},
+    "position": "body",
+    "tag": "skuSelection",
+    "type": "od_sku_selection"
+  },
+  "productEvaluation": {
+    "fields": {
+      "uiType": "od_product_evaluation",
+      "label": "商品评价"
+    },
+    "id": "productEvaluation",
+    "meta": {},
+    "position": "body",
+    "tag": "productEvaluation",
+    "type": "od_product_evaluation"
+  },
+  "sceneKey": {
+    "fields": {
+      "selectedScene": {
+        "sceneKey": "order",
+        "sceneName": "批发"
+      },
+      "coord": {
+        "business": "default",
+        "scene": "default",
+        "useCase": "1688_pc_detail",
+        "atmosphere": "normal",
+        "role": "defaultBuyer",
+        "appPlatform": "",
+        "appVersion": "",
+        "custom": [],
+        "channel": "dsc"
+      },
+      "trackInfo": {},
+      "uiType": "od_scene_key",
+      "offerId": 1002546674170,
+      "sceneList": [
+        {
+          "sceneKey": "order",
+          "sceneName": "批发",
+          "url": "https://detail.1688.com/offer/1002546674170.html?sk=order"
+        },
+        {
+          "sceneKey": "consign",
+          "sceneName": "一件代发",
+          "url": "https://detail.1688.com/offer/1002546674170.html?sk=consign"
+        }
+      ],
+      "label": "场景页签",
+      "handleProcessingTab": false,
+      "memberId": "b2b-2220746735841c8f5a"
+    },
+    "id": "sceneKey",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscTabViewViewcomposer"
+    },
+    "position": "body",
+    "tag": "sceneKey",
+    "type": "od_scene_key"
+  },
+  "processing": {
+    "fields": {
+      "uiType": "od_processing",
+      "label": "定制组件"
+    },
+    "id": "processing",
+    "meta": {},
+    "position": "body",
+    "tag": "processing",
+    "type": "od_processing"
+  },
+  "Row": {
+    "fields": {
+      "uiType": "od_row",
+      "label": "横向组价"
+    },
+    "id": "Row",
+    "meta": {},
+    "position": "body",
+    "tag": "Row",
+    "type": "od_row"
+  },
+  "orderGallery": {
+    "fields": {
+      "uiType": "od_order_gallery",
+      "label": "下单面板主图"
+    },
+    "id": "orderGallery",
+    "meta": {},
+    "position": "body",
+    "tag": "orderGallery",
+    "type": "od_order_gallery"
+  },
+  "discountCoupon": {
+    "fields": {
+      "buttonName": "查看",
+      "trackInfo": {},
+      "label": "折扣优惠",
+      "pageName": "Page_GetCoupon",
+      "promotionModel": {
+        "buttonName": "查看",
+        "promotionList": [
+          {
+            "type": "ALL_SITE_FREE",
+            "name": "全店包邮",
+            "displayType": "text",
+            "extraInfo": {
+              "uiType": "ALL_SITE_FREE"
+            },
+            "uiType": "ALL_SITE_FREE",
+            "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+            "buttonName": "查看",
+            "promotionItems": [
+              {
+                "detail": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+                "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+                "label": "包邮",
+                "extendDetail": "",
+                "discountFee": 0,
+                "availablePeriod": "不免邮区域:海南,内蒙古,甘肃,青海,宁夏,新疆,西藏,台湾,香港,澳门,海外",
+                "startTime": "Wed Oct 22 17:40:49 CST 2025"
+              }
+            ]
+          },
+          {
+            "type": "SHOP_PROMOTION",
+            "name": "满优惠",
+            "displayType": "text",
+            "extraInfo": {
+              "uiType": "ACTIVITY"
+            },
+            "uiType": "ACTIVITY",
+            "summary": "单笔订单满100元，减3元",
+            "buttonName": "查看",
+            "promotionItems": [
+              {
+                "detail": "单笔订单满100元，减3元",
+                "summary": "单笔订单满100元，减3元",
+                "label": "满100减3",
+                "extendDetail": "",
+                "discountFee": 3,
+                "availablePeriod": "有效期：2025.09.29 00:00:00-2026.10.02 00:00:00",
+                "startTime": "Mon Sep 29 00:00:00 CST 2025",
+                "activityUrl": "https://mindx.1688.com/default/default/wxzwtEh5xyAED5FkMQZc/index.html?wh_pha=true&wh_pid=3768677&__existtitle__=1&__immersive__=1&__removesafearea__=1&promotionType=SHOP_PROMOTION&activityId=1257875067&sellerId=2220746735841&sceneCode=combineOrderShop",
+                "actionName": "去凑单"
+              }
+            ]
+          }
+        ]
+      },
+      "newCouponList": [
+        {
+          "couponType": "ALL_SITE_FREE",
+          "couponContent": "包邮"
+        },
+        {
+          "couponType": "ACTIVITY",
+          "couponContent": "满100减3"
+        }
+      ],
+      "bgColor": "#ff0e31",
+      "couponList": [
+        {
+          "couponType": "ALL_SITE_FREE",
+          "couponContent": "包邮"
+        },
+        {
+          "couponType": "ACTIVITY",
+          "couponContent": "满100减3"
+        }
+      ],
+      "couponInfoList": [
+        {
+          "type": "ALL_SITE_FREE",
+          "name": "全店包邮",
+          "displayType": "text",
+          "extraInfo": {
+            "$ref": "$.result.data.discountCoupon.fields.promotionModel.promotionList[0].extraInfo"
+          },
+          "uiType": "ALL_SITE_FREE",
+          "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+          "buttonName": "查看",
+          "promotionItems": [
+            {
+              "detail": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+              "summary": "全店商品支持包邮，部分商品除外，以\"包邮\"标为准",
+              "label": "包邮",
+              "extendDetail": "",
+              "discountFee": 0,
+              "availablePeriod": "不免邮区域:海南,内蒙古,甘肃,青海,宁夏,新疆,西藏,台湾,香港,澳门,海外",
+              "startTime": "Wed Oct 22 17:40:49 CST 2025"
+            }
+          ]
+        },
+        {
+          "type": "SHOP_PROMOTION",
+          "name": "满优惠",
+          "displayType": "text",
+          "extraInfo": {
+            "$ref": "$.result.data.discountCoupon.fields.promotionModel.promotionList[1].extraInfo"
+          },
+          "uiType": "ACTIVITY",
+          "summary": "单笔订单满100元，减3元",
+          "buttonName": "查看",
+          "promotionItems": [
+            {
+              "detail": "单笔订单满100元，减3元",
+              "summary": "单笔订单满100元，减3元",
+              "label": "满100减3",
+              "extendDetail": "",
+              "discountFee": 3,
+              "availablePeriod": "有效期：2025.09.29 00:00:00-2026.10.02 00:00:00",
+              "startTime": "Mon Sep 29 00:00:00 CST 2025",
+              "activityUrl": "https://mindx.1688.com/default/default/wxzwtEh5xyAED5FkMQZc/index.html?wh_pha=true&wh_pid=3768677&__existtitle__=1&__immersive__=1&__removesafearea__=1&promotionType=SHOP_PROMOTION&activityId=1257875067&sellerId=2220746735841&sceneCode=combineOrderShop",
+              "actionName": "去凑单"
+            }
+          ]
+        }
+      ],
+      "linkUrl": "https://cybert.m.1688.com/43ohz283.html?sceneName=chimera_16527",
+      "uiType": "od_discount_coupon",
+      "offerId": 1002546674170,
+      "style": {
+        "textColor": "#FF4000",
+        "arrowsImg": "https://img.alicdn.com/tfs/TB19FQtP4D1gK0jSZFsXXbldVXa-26-44.png"
+      }
+    },
+    "id": "discountCoupon",
+    "meta": {
+      "scriptFileName": "pcOfferDetailDscPromotionViewcomposer"
+    },
+    "position": "body",
+    "tag": "discountCoupon",
+    "type": "od_discount_coupon"
+  }
+}
